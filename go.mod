@@ -1,4 +1,4 @@
-module github.com/hashicorp/serf
+module github.com/DanielDCM212/serf
 
 go 1.12
 
