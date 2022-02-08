@@ -30,7 +30,7 @@ Here are some example use cases of Serf, though there are many others:
 
 First, [download a pre-built Serf binary](https://www.serf.io/downloads.html)
 for your operating system, [compile Serf yourself](#developing-serf), or install
-using `go get -u github.com/hashicorp/serf/cmd/serf`.
+using `go get -u github.com/danieldcm212/serf/cmd/serf`.
 
 Next, let's start a couple Serf agents. Agents run until they're told to quit
 and handle the communication of maintenance tasks of Serf. In a real Serf
@@ -97,7 +97,7 @@ installed (version 1.10+ is _required_). Make sure you have Go properly
 [installed](https://golang.org/doc/install),
 including setting up your [GOPATH](https://golang.org/doc/code.html#GOPATH).
 
-Next, clone this repository into `$GOPATH/src/github.com/hashicorp/serf` and
+Next, clone this repository into `$GOPATH/src/github.com/danieldcm212/serf` and
 then just type `make`. In a few moments, you'll have a working `serf` executable:
 
 ```
@@ -112,8 +112,8 @@ $ bin/serf
 Serf is first and foremost a library with a command-line interface, `serf`. The
 Serf library is independent of the command line agent, `serf`.  The `serf`
 binary is located under `cmd/serf` and can be installed stand alone by issuing
-the command `go get -u github.com/hashicorp/serf/cmd/serf`.  Applications using
-the Serf library should only need to include `github.com/hashicorp/serf`.
+the command `go get -u github.com/danieldcm212/serf/cmd/serf`.  Applications using
+the Serf library should only need to include `github.com/danieldcm212/serf`.
 
 Tests can be run by typing `make test`.
 

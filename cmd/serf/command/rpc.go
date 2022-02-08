@@ -4,7 +4,7 @@ import (
 	"flag"
 	"os"
 
-	"github.com/hashicorp/serf/client"
+	"github.com/danieldcm212/serf/client"
 )
 
 // RPCAddrFlag returns a pointer to a string that will be populated

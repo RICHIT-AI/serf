@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/serf/serf"
+	"github.com/danieldcm212/serf/serf"
 )
 
 const eventScript = `#!/bin/sh

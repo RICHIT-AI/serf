@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/serf/client"
-	"github.com/hashicorp/serf/testutil"
+	"github.com/danieldcm212/serf/client"
+	"github.com/danieldcm212/serf/testutil"
 	"github.com/mitchellh/cli"
 )
 

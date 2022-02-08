@@ -6,8 +6,8 @@ import (
 	"net"
 	"testing"
 
+	"github.com/danieldcm212/serf/testutil"
 	"github.com/hashicorp/memberlist"
-	"github.com/hashicorp/serf/testutil"
 )
 
 func testKeyring() (*memberlist.Keyring, error) {
