@@ -1,4 +1,4 @@
-module github.com/DanielDCM212/serf
+module github.com/danieldcm212/serf
 
 go 1.12
 
