@@ -20,10 +20,10 @@ import (
 
 	"github.com/hashicorp/go-msgpack/codec"
 	"github.com/hashicorp/memberlist"
-	"github.com/hashicorp/serf/coordinate"
-	"github.com/hashicorp/serf/serf/internal/race"
-	"github.com/hashicorp/serf/testutil"
-	"github.com/hashicorp/serf/testutil/retry"
+	"github.com/richit-ai/serf/coordinate"
+	"github.com/richit-ai/serf/serf/internal/race"
+	"github.com/richit-ai/serf/testutil"
+	"github.com/richit-ai/serf/testutil/retry"
 )
 
 func testConfig(t *testing.T, ip net.IP) *Config {

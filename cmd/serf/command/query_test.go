@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/serf/testutil"
 	"github.com/mitchellh/cli"
+	"github.com/richit-ai/serf/testutil"
 )
 
 func TestQueryCommandRun_noName(t *testing.T) {

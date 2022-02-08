@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/serf/client"
-	"github.com/hashicorp/serf/serf"
 	"github.com/mitchellh/cli"
+	"github.com/richit-ai/serf/client"
+	"github.com/richit-ai/serf/serf"
 )
 
 const (

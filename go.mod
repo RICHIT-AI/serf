@@ -1,4 +1,4 @@
-module github.com/hashicorp/serf
+module github.com/richit-ai/serf
 
 go 1.12
 
@@ -6,6 +6,7 @@ require (
 	github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da
 	github.com/armon/go-radix v1.0.0 // indirect
+	github.com/cloudfoundry/gosigar v1.3.3
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/hashicorp/go-msgpack v0.5.3
 	github.com/hashicorp/go-multierror v1.1.0 // indirect

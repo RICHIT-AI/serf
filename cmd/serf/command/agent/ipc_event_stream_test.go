@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/serf/serf"
+	"github.com/richit-ai/serf/serf"
 )
 
 type MockStreamClient struct {

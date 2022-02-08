@@ -7,11 +7,11 @@ import (
 	"testing"
 
 	"github.com/hashicorp/memberlist"
-	"github.com/hashicorp/serf/client"
-	"github.com/hashicorp/serf/cmd/serf/command/agent"
-	"github.com/hashicorp/serf/serf"
-	"github.com/hashicorp/serf/testutil"
 	"github.com/mitchellh/cli"
+	"github.com/richit-ai/serf/client"
+	"github.com/richit-ai/serf/cmd/serf/command/agent"
+	"github.com/richit-ai/serf/serf"
+	"github.com/richit-ai/serf/testutil"
 )
 
 func testKeysCommandAgent(t *testing.T, ip net.IP) *agent.Agent {

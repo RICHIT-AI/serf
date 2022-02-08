@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/serf/client"
-	"github.com/hashicorp/serf/testutil"
 	"github.com/mitchellh/cli"
+	"github.com/richit-ai/serf/client"
+	"github.com/richit-ai/serf/testutil"
 )
 
 func TestCommandRun(t *testing.T) {

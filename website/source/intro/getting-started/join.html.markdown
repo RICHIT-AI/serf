@@ -22,7 +22,7 @@ member and quickly discover the other members in the cluster.
 
 To simulate a more realistic cluster, we are using a two node cluster in
 Vagrant. The Vagrantfile can be found in the demo section of the repo
-[here](https://github.com/hashicorp/serf/tree/master/demo/vagrant-cluster).
+[here](https://github.com/richit-ai/serf/tree/master/demo/vagrant-cluster).
 
 We start the first agent on our first node and also
 specify a node name. The node name must be unique and is how a machine

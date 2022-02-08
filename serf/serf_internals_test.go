@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/hashicorp/memberlist"
-	"github.com/hashicorp/serf/serf/internal/race"
-	"github.com/hashicorp/serf/testutil"
-	"github.com/hashicorp/serf/testutil/retry"
+	"github.com/richit-ai/serf/serf/internal/race"
+	"github.com/richit-ai/serf/testutil"
+	"github.com/richit-ai/serf/testutil/retry"
 )
 
 func TestSerf_joinLeave_ltime(t *testing.T) {

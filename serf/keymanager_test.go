@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/memberlist"
-	"github.com/hashicorp/serf/testutil"
+	"github.com/richit-ai/serf/testutil"
 )
 
 func testKeyring() (*memberlist.Keyring, error) {
