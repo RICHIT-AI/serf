@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/danieldcm212/serf/client"
-	"github.com/danieldcm212/serf/testutil"
 	"github.com/mitchellh/cli"
+	"github.com/richit-ai/serf/client"
+	"github.com/richit-ai/serf/testutil"
 )
 
 func TestTagsCommandRun(t *testing.T) {

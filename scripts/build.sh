@@ -14,7 +14,7 @@ cd "$DIR"
 # Get the git commit
 GIT_COMMIT="$(git rev-parse HEAD)"
 GIT_DIRTY="$(test -n "`git status --porcelain`" && echo "+CHANGES" || true)"
-GIT_IMPORT=github.com/danieldcm212/serf/version
+GIT_IMPORT=github.com/richit-ai/serf/version
 
 # Determine the arch/os combos we're building for
 XC_ARCH=${XC_ARCH:-"386 amd64 arm"}

@@ -35,10 +35,10 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	"github.com/danieldcm212/serf/coordinate"
-	"github.com/danieldcm212/serf/serf"
 	"github.com/hashicorp/go-msgpack/codec"
 	"github.com/hashicorp/logutils"
+	"github.com/richit-ai/serf/coordinate"
+	"github.com/richit-ai/serf/serf"
 )
 
 const (

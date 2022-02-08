@@ -4,10 +4,10 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/danieldcm212/serf/cmd/serf/command"
-	"github.com/danieldcm212/serf/cmd/serf/command/agent"
-	"github.com/danieldcm212/serf/version"
 	"github.com/mitchellh/cli"
+	"github.com/richit-ai/serf/cmd/serf/command"
+	"github.com/richit-ai/serf/cmd/serf/command/agent"
+	"github.com/richit-ai/serf/version"
 )
 
 // Commands is the mapping of all the available Serf commands.

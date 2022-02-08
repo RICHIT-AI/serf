@@ -3,8 +3,8 @@ package command
 import (
 	"fmt"
 
-	"github.com/danieldcm212/serf/serf"
 	"github.com/mitchellh/cli"
+	"github.com/richit-ai/serf/serf"
 )
 
 // VersionCommand is a Command implementation prints the version.

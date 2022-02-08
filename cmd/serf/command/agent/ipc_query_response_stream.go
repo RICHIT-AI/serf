@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/danieldcm212/serf/serf"
+	"github.com/richit-ai/serf/serf"
 )
 
 // queryResponseStream is used to stream the query results back to a client

@@ -14,11 +14,11 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	"github.com/danieldcm212/serf/serf"
 	gsyslog "github.com/hashicorp/go-syslog"
 	"github.com/hashicorp/logutils"
 	"github.com/hashicorp/memberlist"
 	"github.com/mitchellh/cli"
+	"github.com/richit-ai/serf/serf"
 )
 
 const (

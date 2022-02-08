@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/danieldcm212/serf/testutil"
+	"github.com/richit-ai/serf/testutil"
 )
 
 func TestDefaultQuery(t *testing.T) {

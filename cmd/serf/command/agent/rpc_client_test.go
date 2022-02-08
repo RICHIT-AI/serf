@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/danieldcm212/serf/client"
-	"github.com/danieldcm212/serf/serf"
-	"github.com/danieldcm212/serf/testutil"
+	"github.com/richit-ai/serf/client"
+	"github.com/richit-ai/serf/serf"
+	"github.com/richit-ai/serf/testutil"
 )
 
 func testRPCClient(t *testing.T, ip net.IP) (*client.RPCClient, *Agent, *AgentIPC) {

@@ -6,12 +6,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/danieldcm212/serf/client"
-	"github.com/danieldcm212/serf/cmd/serf/command/agent"
-	"github.com/danieldcm212/serf/serf"
-	"github.com/danieldcm212/serf/testutil"
 	"github.com/hashicorp/memberlist"
 	"github.com/mitchellh/cli"
+	"github.com/richit-ai/serf/client"
+	"github.com/richit-ai/serf/cmd/serf/command/agent"
+	"github.com/richit-ai/serf/serf"
+	"github.com/richit-ai/serf/testutil"
 )
 
 func testKeysCommandAgent(t *testing.T, ip net.IP) *agent.Agent {

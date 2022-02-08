@@ -13,7 +13,7 @@ import (
 
 	"github.com/armon/circbuf"
 	"github.com/armon/go-metrics"
-	"github.com/danieldcm212/serf/serf"
+	"github.com/richit-ai/serf/serf"
 )
 
 const (

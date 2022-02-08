@@ -1,4 +1,4 @@
-module github.com/danieldcm212/serf
+module github.com/richit-ai/serf
 
 go 1.12
 

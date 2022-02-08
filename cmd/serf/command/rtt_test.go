@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/danieldcm212/serf/testutil"
 	"github.com/mitchellh/cli"
+	"github.com/richit-ai/serf/testutil"
 )
 
 func TestRTTCommand_Implements(t *testing.T) {

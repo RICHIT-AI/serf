@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/danieldcm212/serf/serf"
 	"github.com/mitchellh/mapstructure"
+	"github.com/richit-ai/serf/serf"
 )
 
 // This is the default port that we use for Serf communication

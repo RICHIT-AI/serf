@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/danieldcm212/serf/testutil"
+	"github.com/richit-ai/serf/testutil"
 )
 
 func TestDelegate_NodeMeta_Old(t *testing.T) {

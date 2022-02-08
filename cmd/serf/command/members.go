@@ -6,8 +6,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/danieldcm212/serf/cmd/serf/command/agent"
 	"github.com/mitchellh/cli"
+	"github.com/richit-ai/serf/cmd/serf/command/agent"
 	"github.com/ryanuber/columnize"
 )
 

@@ -18,12 +18,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/danieldcm212/serf/coordinate"
-	"github.com/danieldcm212/serf/serf/internal/race"
-	"github.com/danieldcm212/serf/testutil"
-	"github.com/danieldcm212/serf/testutil/retry"
 	"github.com/hashicorp/go-msgpack/codec"
 	"github.com/hashicorp/memberlist"
+	"github.com/richit-ai/serf/coordinate"
+	"github.com/richit-ai/serf/serf/internal/race"
+	"github.com/richit-ai/serf/testutil"
+	"github.com/richit-ai/serf/testutil/retry"
 )
 
 func testConfig(t *testing.T, ip net.IP) *Config {

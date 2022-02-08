@@ -20,7 +20,7 @@ expose it to the entire system. On Windows systems, you can put it wherever
 you would like.
 
 It is also possible to build and install the `serf` binary through the standard
-`go` command-line utility (`go get -u github.com/danieldcm212/serf/cmd/serf` which
+`go` command-line utility (`go get -u github.com/richit-ai/serf/cmd/serf` which
 installs `serf` as `$GOPATH/bin/serf`), however we recommend running an official
 release.
 

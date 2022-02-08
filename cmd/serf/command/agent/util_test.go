@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/danieldcm212/serf/serf"
-	"github.com/danieldcm212/serf/testutil"
+	"github.com/richit-ai/serf/serf"
+	"github.com/richit-ai/serf/testutil"
 )
 
 func init() {

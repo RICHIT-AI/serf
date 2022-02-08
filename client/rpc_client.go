@@ -9,9 +9,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/danieldcm212/serf/coordinate"
 	"github.com/hashicorp/go-msgpack/codec"
 	"github.com/hashicorp/logutils"
+	"github.com/richit-ai/serf/coordinate"
 )
 
 const (
