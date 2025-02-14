@@ -378,7 +378,6 @@ func (i *AgentIPC) listen() {
 			i.logger.Printf("[ERR] agent.ipc: Failed to accept client: %v", err)
 			continue
 		}
-		i.logger.Printf("[INFO] agent.ipc: Accepted client: %v", conn.RemoteAddr())
 		metrics.IncrCounter([]string{"agent", "ipc", "accept"}, 1)
 
 		// Wrap the connection in a client
